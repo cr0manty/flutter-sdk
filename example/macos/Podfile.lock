@@ -1,0 +1,48 @@
+PODS:
+  - flutter_webrtc (0.9.31):
+    - FlutterMacOS
+    - WebRTC-SDK (= 104.5112.17)
+  - FlutterMacOS (1.0.0)
+  - millicast_flutter_sdk (0.0.1):
+    - FlutterMacOS
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - share_plus (0.0.1):
+    - FlutterMacOS
+  - WebRTC-SDK (104.5112.17)
+
+DEPENDENCIES:
+  - flutter_webrtc (from `Flutter/ephemeral/.symlinks/plugins/flutter_webrtc/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - millicast_flutter_sdk (from `Flutter/ephemeral/.symlinks/plugins/millicast_flutter_sdk/macos`)
+  - path_provider_foundation (from `Flutter/ephemeral/.symlinks/plugins/path_provider_foundation/macos`)
+  - share_plus (from `Flutter/ephemeral/.symlinks/plugins/share_plus/macos`)
+
+SPEC REPOS:
+  trunk:
+    - WebRTC-SDK
+
+EXTERNAL SOURCES:
+  flutter_webrtc:
+    :path: Flutter/ephemeral/.symlinks/plugins/flutter_webrtc/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  millicast_flutter_sdk:
+    :path: Flutter/ephemeral/.symlinks/plugins/millicast_flutter_sdk/macos
+  path_provider_foundation:
+    :path: Flutter/ephemeral/.symlinks/plugins/path_provider_foundation/macos
+  share_plus:
+    :path: Flutter/ephemeral/.symlinks/plugins/share_plus/macos
+
+SPEC CHECKSUMS:
+  flutter_webrtc: 9903b25f3648e335a40952058b14225e7b0df88d
+  FlutterMacOS: ae6af50a8ea7d6103d888583d46bd8328a7e9811
+  millicast_flutter_sdk: 9f92197cf94253e9400feb1cadccf0c33b2dd2cc
+  path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+  share_plus: 76dd39142738f7a68dd57b05093b5e8193f220f7
+  WebRTC-SDK: 082ae4893212534a779ca233f19a9df8efd5f3bd
+
+PODFILE CHECKSUM: 353c8bcc5d5b0994e508d035b5431cfe18c1dea7
+
+COCOAPODS: 1.12.1

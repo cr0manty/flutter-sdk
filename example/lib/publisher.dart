@@ -2,8 +2,6 @@ import 'package:example/millicast_publisher_user_media.dart';
 import 'package:example/utils/constants.dart';
 import 'package:flutter_webrtc/flutter_webrtc.dart';
 import 'package:millicast_flutter_sdk/millicast_flutter_sdk.dart';
-import 'dart:io';
-import 'package:flutter/foundation.dart';
 
 Future<MillicastPublishUserMedia> buildPublisher(
     RTCVideoRenderer localRenderer) async {
@@ -30,11 +28,7 @@ Future<MillicastPublishUserMedia> connectPublisher(
       'events': ['active', 'inactive', 'layers', 'viewercount']
     };
 
-    if (!kIsWeb) {
-      if (Platform.isAndroid || Platform.isIOS) {
-        options['codec'] = 'vp8';
-      }
-    }
+    options['codec'] = 'vp8';
 
     if (mainOptions.containsKey('sourceId')) {
       options['sourceId'] = mainOptions['sourceId'];
