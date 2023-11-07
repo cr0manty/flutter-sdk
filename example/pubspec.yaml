@@ -42,7 +42,7 @@ dependencies:
   http: ^1.1.0
   web_socket_channel: ^2.3.0
   flutter_dotenv: ^5.0.2
-  logger: ^1.1.0
+  logger: ^1.4.0
   stop_watch_timer: ^2.0.0
   share_plus: ^6.3.0
   flutter_settings_ui: ^2.0.1
